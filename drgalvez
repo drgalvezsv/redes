@@ -1,5 +1,5 @@
 index.html
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -40,12 +40,12 @@ index.html
     <p>Tu perfil médico | Educación médica continua</p>
 
     <div class="redes">
-        <a href="https://www.youtube.com/tu_canal " target="_blank">YouTube</a>
-        <a href="https://www.instagram.com/tu_usuario " target="_blank">Instagram</a>
-        <a href="https://www.facebook.com/tu_perfil " target="_blank">Facebook</a>
+        <a href="https://www.youtube.com/@BiologicalCollege">YouTube</a>
+        <a href="https://www.instagram.com/@biologicalcollege" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/robertocarlosgalvez" target="_blank">Facebook</a>
         <a href="https://twitter.com/tu_usuario " target="_blank">Twitter/X</a>
-        <a href="mailto:tuemail@example.com">Correo Electrónico</a>
+        <a href="mailto:parkti89@gmail.com.com">Correo Electrónico</a>
     </div>
 
 </body>
-</html>
+</html>  
