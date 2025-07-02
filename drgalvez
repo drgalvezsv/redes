@@ -3,49 +3,103 @@ index.html
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mis Redes Sociales</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conéctate Conmigo | [Tu Nombre]</title>
     <style>
+        /* ESTILOS PRINCIPALES */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
             color: #333;
         }
-        .redes {
-            margin-top: 30px;
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 500px;
+            padding: 30px;
+            text-align: center;
         }
-        .redes a {
-            display: block;
-            margin: 15px auto;
-            padding: 15px 25px;
-            background-color: #007BFF;
-            color: white;
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .social-link {
+            display: flex;
+            align-items: center;
+            padding: 12px 20px;
+            border-radius: 10px;
             text-decoration: none;
-            border-radius: 8px;
-            width: 80%;
-            max-width: 300px;
+            color: white;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
-        .redes a:hover {
-            background-color: #0056b3;
+        .social-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+        }
+        /* COLORES POR RED SOCIAL */
+        .youtube { background-color: #FF0000; }
+        .instagram { background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); }
+        .facebook { background-color: #1877F2; }
+        .x { background-color: #000000; }
+        .tiktok { background-color: #010101; }
+        .whatsapp { background-color: #25D366; }
     </style>
 </head>
 <body>
-
-    <h1>Dr. Tu Nombre</h1>
-    <p>Tu perfil médico | Educación médica continua</p>
-
-    <div class="redes">
-        <a href="https://www.youtube.com/@BiologicalCollege">YouTube</a>
-        <a href="https://www.instagram.com/@biologicalcollege" target="_blank">Instagram</a>
-        <a href="https://www.facebook.com/robertocarlosgalvez" target="_blank">Facebook</a>
-        <a href="https://twitter.com/tu_usuario " target="_blank">Twitter/X</a>
-        <a href="mailto:parkti89@gmail.com.com">Correo Electrónico</a>
+    <div class="container">
+        <h1>¡Conéctate Conmigo!</h1>
+        <p>Sígueme en mis redes sociales para más contenido médico.</p>
+        
+        <div class="social-links">
+            <!-- REEMPLAZA LOS # CON TUS LINKS -->
+            <a href="#" class="social-link youtube">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" class="social-icon">
+                YouTube
+            </a>
+            <a href="#" class="social-link instagram">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="social-icon">
+                Instagram
+            </a>
+            <a href="#" class="social-link facebook">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="social-icon">
+                Facebook
+            </a>
+            <a href="#" class="social-link x">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X" class="social-icon">
+                X (Twitter)
+            </a>
+            <a href="#" class="social-link tiktok">
+                <img src="https://cdn-icons-png.flaticon.com/512/3046/3046127.png" alt="TikTok" class="social-icon">
+                TikTok
+            </a>
+            <a href="#" class="social-link whatsapp">
+                <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="WhatsApp" class="social-icon">
+                WhatsApp
+            </a>
+        </div>
     </div>
-
 </body>
-</html>  
+</html>
